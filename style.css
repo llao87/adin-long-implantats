@@ -1,0 +1,1087 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {}
+
+header {
+    height: 302px;
+    background-color: #fff;
+}
+
+
+/* ============================= */
+
+.content-box {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+}
+
+.content-box * {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1080px) {
+    .content-box {
+        /*font-size: 0.833334vw;*/
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .content-box {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .content-box {
+        font-size: 11px
+    }
+}
+
+.content-box .container {
+    height: auto;
+    min-height: 100px;
+    max-width: 1050px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.content-box .promo {
+    position: relative;
+    /*background-color: #050735;*/
+    background-color: #030734;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1em;
+    /*min-height: 1130px;*/
+    /*min-height: 805px;*/
+    min-height: 50.2em;
+}
+
+@media screen and (max-width: 1080px) {
+    .content-box .promo {
+        min-height: auto;
+    }
+}
+
+.content-box .promo * {
+    font-family: sans-serif;
+}
+
+.content-box .promo .container {
+    position: relative;
+    height: auto;
+    max-width: 1050px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.content-box .promo .container::before {
+    display: inline-flex;
+    content: 'НОВИНКИ';
+    height: auto;
+    position: absolute;
+    border: none;
+    color: #ffffff;
+    background-color: #0193a7;
+    font-weight: bold;
+    padding: 0.6em 1.6em;
+    top: -0.8em;
+    left: 1em;
+    z-index: 5;
+    font-size: 1.4em;
+}
+
+.content-box .promo .container .page-title {
+    position: relative;
+    display: inline-block;
+    font-size: 60px;
+    color: #ffffff;
+    top: 88px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: normal;
+    z-index: 10;
+}
+
+.content-box .promo .container .bg-promo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    height: inherit;
+    min-height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1080px) {
+    .content-box .promo .container .bg-promo {
+        position: relative
+    }
+}
+
+.content-box .promo .container .text-block {
+    display: inline-block;
+    position: absolute;
+    color: #ffffff;
+    top: 237px;
+    left: 225px;
+    z-index: 5;
+    font-size: 25px;
+}
+
+.content-box .promo .container .text-block .text {}
+
+.content-box .promo .container .text-block .text .name {
+    position: relative;
+}
+
+.content-box .promo .container .text-block .text .name sup {
+    font-size: 10px;
+}
+
+.content-box .promo .container .text-block .text .description {
+    position: relative;
+    font-size: 20px;
+    margin: 18px 0 0 24px;
+}
+
+.content-box .promo .container .svg-info {
+    position: absolute;
+    color: #fff;
+    z-index: 10;
+}
+
+.content-box .promo .container .svg-os {
+    top: 122%;
+    left: 13%;
+    top: 7.5em;
+    left: 8.4em;
+}
+
+.content-box .promo .container .svg-closefit {
+    top: 122%;
+    left: 55%;
+}
+
+.content-box .promo .container .svg-os-neck {
+    top: 262%;
+    left: 13%;
+}
+
+.content-box .promo .container .text-block .line-box {
+    position: relative;
+    display: inline-block;
+    right: -145px;
+    top: -35px;
+}
+
+.content-box .promo .container .text-block .line {
+    animation-name: animation-os-line;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transform-origin: bottom left;
+    animation-delay: 0.4s;
+}
+
+.content-box .promo .container .os-diameter {}
+
+.content-box .promo .container .os-diameter::before {}
+
+.content-box .promo .container .os-diameter::after {}
+
+.content-box .promo .container .os-diameter.name {}
+
+.content-box .promo .container .os-diameter.description {}
+
+
+/* about long implantats */
+
+.content-box .about-long-implantats {}
+
+.content-box .about-long-implantats .container {
+    padding: 3em 2.5em;
+    padding: 5em 0 3.5em;
+    padding: 1em 0;
+    font-size: 1.6em;
+}
+
+@media screen and (max-width: 1080px) {
+    .content-box .about-long-implantats .container {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 1.4em;
+    }
+}
+
+.content-box .about-long-implantats .container p {
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
+
+
+/* about long insertion */
+
+.content-box .insertion {}
+
+.content-box .insertion .container {}
+
+@media screen and (max-width: 1080px) {
+    .content-box .insertion .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+.content-box .insertion .container .table-header {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 0.6em;
+    padding: 0 0 0 1em;
+    margin: 0 1em 2em 0;
+}
+
+@media screen and (max-width: 780px) {
+    .content-box .insertion .container .table-header {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+}
+
+.content-box .insertion .container .table-header .logo {
+    display: inline-block;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width: 780px) {
+    .content-box .insertion .container .table-header .logo {
+        width: 100%;
+        margin-bottom: 0.6em;
+    }
+}
+
+.content-box .insertion .container .table-header .logo .logo-img {
+    width: 3em;
+    display: inline-block;
+    margin-right: 1em;
+    line-height: 1;
+}
+
+@media screen and (max-width: 1080px) {
+    .content-box .insertion .container .table-header .logo .logo-img {
+        width: 2em
+    }
+}
+
+.content-box .insertion .container .table-header .logo span {}
+
+.content-box .insertion .container .table-header .logo span sup {
+    font-size: 0.4em;
+}
+
+.content-box .insertion .container .table-header .title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.6em;
+    line-height: 1;
+}
+
+@media screen and (max-width: 1080px) {
+    .content-box .insertion .container .table-header .title {
+        font-size: 1.4em
+    }
+}
+
+.content-box .insertion .container .properties {
+    width: 100%;
+}
+
+.content-box .insertion .container .properties .properties-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #b9b9b9;
+}
+
+.content-box .insertion .container .properties .properties-table tr {}
+
+.content-box .insertion .container .properties .properties-table tr th {
+    color: #ffffff;
+    border: 1px solid #b9b9b9;
+    font-size: 1.4em;
+    width: 20%;
+}
+
+.content-box .insertion .container .properties .properties-table tr td {
+    font-size: 1.4em;
+    border: 1px solid #b9b9b9;
+}
+
+.content-box .insertion .container .properties .properties-table tr td .table-image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.content-box .insertion .container .properties .properties-table tr td .table-image img {
+    display: inline-block;
+    width: 2.4em;
+    padding: 2.15em 0;
+}
+
+.content-box .insertion .container .properties .properties-table tr td.main-diameter {
+    color: #ffffff;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 780px) {
+    .content-box .insertion .container .properties .properties-table tr td.main-diameter {
+        font-size: 1.6em;
+    }
+}
+
+
+/* about long insertion OS */
+
+.content-box .touareg-os-insertion {
+    /*margin: 2em 0 4em;*/
+    margin: 2em 0 7em;
+}
+
+.content-box .touareg-os-insertion .container {}
+
+@media screen and (max-width: 1080px) {
+    .content-box .touareg-os-insertion .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+.content-box .touareg-os-insertion .container .table-header {}
+
+.content-box .touareg-os-insertion .container .table-header .logo {}
+
+.content-box .touareg-os-insertion .container .table-header .logo .logo-img {}
+
+.content-box .touareg-os-insertion .container .table-header .logo span {
+    display: inline-block;
+    font-size: 2em;
+    color: #7c4b9c;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1080px) {
+    .content-box .touareg-os-insertion .container .table-header .logo span {
+        font-size: 1.6em;
+    }
+}
+
+.content-box .touareg-os-insertion .container .table-header .title {
+    color: #010039;
+}
+
+.content-box .touareg-os-insertion .container .properties {}
+
+.content-box .touareg-os-insertion .container .properties .properties-table {}
+
+.content-box .touareg-os-insertion .container .properties .properties-table tr {}
+
+.content-box .touareg-os-insertion .container .properties .properties-table tr th {
+    background-color: #7c4b9c;
+    padding: 0.6em;
+}
+
+.content-box .touareg-os-insertion .container .properties .properties-table tr td {
+    padding: 0.8em;
+    text-align: center;
+    vertical-align: center;
+}
+
+.content-box .touareg-os-insertion .container .properties .properties-table tr td.table-image {}
+
+.content-box .touareg-os-insertion .container .properties .properties-table tr td.table-image img {
+    display: inline-block;
+    width: 2.4em;
+}
+
+.content-box .touareg-os-insertion .container .properties .properties-table tr td.main-diameter {
+    background-color: #7c4b9c;
+}
+
+
+/* about long insertion CloseFit */
+
+.content-box .closefit-insertion {
+    margin: 2em 0 4em;
+    margin: 2em 0 7em;
+}
+
+.content-box .closefit-insertion .container {}
+
+@media screen and (max-width: 1080px) {
+    .content-box .closefit-insertion .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .content-box .closefit-insertion .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.content-box .closefit-insertion .container .table-header {}
+
+.content-box .closefit-insertion .container .table-header .logo {}
+
+.content-box .closefit-insertion .container .table-header .logo .logo-img {}
+
+.content-box .closefit-insertion .container .table-header .logo span {
+    display: inline-block;
+    font-size: 2em;
+    color: #109aa9;
+    font-weight: bold;
+}
+
+.content-box .closefit-insertion .container .table-header .title {
+    color: #010039;
+}
+
+.content-box .closefit-insertion .container .properties {}
+
+.content-box .closefit-insertion .container .properties .properties-table {}
+
+.content-box .closefit-insertion .container .properties .properties-table tr {}
+
+.content-box .closefit-insertion .container .properties .properties-table tr th {
+    background-color: #109aa9;
+    padding: 0.6em;
+}
+
+.content-box .closefit-insertion .container .properties .properties-table tr td {
+    padding: 0.8em;
+    text-align: center;
+    vertical-align: center;
+}
+
+@media screen and (max-width: 780px) {
+    .content-box .closefit-insertion .container .properties .properties-table tr td {
+        padding: 0.3em;
+    }
+}
+
+.content-box .closefit-insertion .container .properties .properties-table tr td.table-image {}
+
+.content-box .closefit-insertion .container .properties .properties-table tr td.table-image img {
+    padding: 2.8em 0;
+    width: 2.4em;
+}
+
+.content-box .closefit-insertion .container .properties .properties-table tr td.main-diameter {
+    background-color: #109aa9;
+}
+
+
+/* about long drills */
+
+
+/*#010039*/
+
+.content-box .long-drills {
+    margin-bottom: 3em;
+}
+
+.content-box .long-drills .container {}
+
+@media screen and (max-width: 1080px) {
+    .content-box .long-drills .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .content-box .long-drills .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.content-box .long-drills .container .table-header {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 0.6em;
+    padding: 0 0 0 1em;
+    margin: 0 1em 2em 0;
+}
+
+.content-box .long-drills .container .table-header .title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.6em;
+    line-height: 1;
+    color: #010039;
+    font-weight: bold;
+}
+
+.content-box .long-drills .container .table-properties {}
+
+.content-box .long-drills .container .table-properties table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.content-box .long-drills .container .table-properties table tr {}
+
+.content-box .long-drills .container .table-properties table tr.table-head {
+    background-color: #010039;
+    color: #ffffff;
+}
+
+.content-box .long-drills .container .table-properties table tr th {
+    border: 1px solid #b9b9b9;
+    font-size: 1.2em;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.6em 0;
+}
+
+.content-box .long-drills .container .table-properties table tr th:nth-child(1) {
+    width: 20%;
+}
+
+
+/* @media screen and (max-width: 780px) {
+    .content-box .long-drills .container .table-properties table tr th:nth-child(1) {
+        /* display: none; */
+
+
+/* } */
+
+
+/* } */
+
+.content-box .long-drills .container .table-properties table tr th:nth-child(2) {
+    width: 15%;
+}
+
+.content-box .long-drills .container .table-properties table tr th:nth-child(3) {
+    width: 35%;
+}
+
+@media screen and (max-width: 780px) {
+    .content-box .long-drills .container .table-properties table tr th:nth-child(3) {
+        width: 0;
+    }
+}
+
+.content-box .long-drills .container .table-properties table tr th:nth-child(4) {
+    width: 15%;
+}
+
+.content-box .long-drills .container .table-properties table tr th:nth-child(5) {
+    width: 15%;
+}
+
+.content-box .long-drills .container .table-properties table tr td {
+    border: 1px solid #b9b9b9;
+    font-size: 1.2em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 780px) {
+    .content-box .long-drills .container .table-properties table tr td:nth-child(1) {
+        /* display: none; */
+    }
+}
+
+.content-box .long-drills .container .table-properties table tr td p.image-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-box .long-drills .container .table-properties table tr td p.image-cell .bottom-text {
+    display: block;
+    color: #ffffff;
+    margin-bottom: 1.4em;
+}
+
+.content-box .long-drills .container .table-properties table tr td p.image-cell img {
+    width: 22em;
+}
+
+@media screen and (max-width: 780px) {
+    .content-box .long-drills .container .table-properties table tr td p.image-cell img {
+        display: none;
+    }
+}
+
+.content-box .long-drills .container .table-properties table tr td.table-image {
+    background-color: #010039;
+}
+
+@media screen and (max-width: 780px) {
+    .content-box .long-drills .container .table-properties table tr td.table-image {
+        /* display: none; */
+    }
+}
+
+.content-box .long-drills .container .table-properties table tr td.table-image .image-cell {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 780px) {
+    .content-box .long-drills .container .table-properties table tr td.table-image .image-cell {
+        display: inline-block;
+    }
+}
+
+.content-box .long-drills .container .table-properties table tr td.table-image .image-cell img {
+    padding: 4.4em 0;
+    padding: 1.4em 0;
+    width: 2.44em;
+}
+
+@media screen and (max-width: 780px) {
+    .content-box .long-drills .container .table-properties table tr td.table-image .image-cell img {
+        width: 2.4em;
+    }
+}
+
+.content-box .surgical-driver {
+    padding: 10em 0 6em 0;
+}
+
+@media screen and (max-width: 780px) {
+    .content-box .surgical-driver {
+        padding: 6em 0 3em;
+    }
+}
+
+.content-box .surgical-driver .container {
+    position: relative;
+}
+
+@media screen and (max-width: 1080px) {
+    /* .content-box .surgical-driver .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    } */
+}
+
+.content-box .surgical-driver .container .left {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 35%;
+    float: left;
+}
+
+@media screen and (max-width: 780px) {
+    .content-box .surgical-driver .container .left {
+        flex-direction: column;
+        width: 50%;
+    }
+}
+
+.content-box .surgical-driver .container .left .col {
+    width: 50%;
+    border-left: 1px solid #b9b9b9;
+    border-right: 1px solid #b9b9b9;
+    border-bottom: 1px solid #b9b9b9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 5em;
+    text-align: center;
+    line-height: 1.5;
+    /* background-color: #fff; */
+}
+
+@media screen and (max-width: 780px) {
+    .content-box .surgical-driver .container .left .col {
+        border: none;
+        line-height: 1;
+        min-height: 3em;
+    }
+}
+
+.content-box .surgical-driver .container .left .col:first-child {
+    border-right: none;
+}
+
+@media screen and (max-width: 780px) {
+    .content-box .surgical-driver .container .left .col:first-child {
+        /* border-right: 1px solid #b9b9b9; */
+    }
+}
+
+.content-box .surgical-driver .container .surgical-driver-img {
+    position: absolute;
+    width: 40em;
+    left: 50%;
+    top: -7.5em;
+    transform: translateX(-50%);
+    z-index: -1;
+    margin-left: -3em;
+}
+
+@media screen and (max-width: 780px) {
+    .content-box .surgical-driver .container .surgical-driver-img {
+        width: 25em;
+        top: -5.5em;
+        margin-left: -4em;
+    }
+}
+
+.content-box .surgical-driver .container .right {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 35%;
+    float: right;
+}
+
+@media screen and (max-width: 780px) {
+    .content-box .surgical-driver .container .right {
+        flex-direction: column;
+        align-items: flex-end;
+        width: 50%;
+    }
+}
+
+.content-box .surgical-driver .container .right .col {
+    width: 50%;
+    border-left: 1px solid #b9b9b9;
+    border-right: 1px solid #b9b9b9;
+    border-bottom: 1px solid #b9b9b9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 5em;
+    text-align: center;
+    line-height: 1.5;
+    /* background-color: #fff; */
+}
+
+@media screen and (max-width: 780px) {
+    .content-box .surgical-driver .container .right .col {
+        border: none;
+        min-height: 3em;
+        line-height: 1;
+    }
+}
+
+.content-box .surgical-driver .container .right .col:first-child {
+    border-right: none;
+}
+
+@media screen and (max-width: 780px) {
+    .content-box .surgical-driver .container .right .col:first-child {
+        /* border-right: 1px solid #b9b9b9; */
+        /* align-items: flex-end; */
+    }
+}
+
+
+/*color: #010039;*/
+
+
+/* Drills */
+
+.content-box .drill-sequence {}
+
+.content-box .drill-sequence .container {}
+
+@media screen and (max-width: 1080px) {
+    /* .content-box .drill-sequence .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    } */
+}
+
+.content-box .drill-sequence .container .table-header {}
+
+.content-box .drill-sequence .container .table-header .logo {
+    display: inline-block;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.content-box .drill-sequence .container .table-header .logo .logo-img {}
+
+.content-box .drill-sequence .container .table-header .title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 2em;
+    line-height: 1.5;
+    color: #010039;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 780px) {
+    .content-box .drill-sequence .container .table-header .title {
+        font-size: 1.6em;
+    }
+}
+
+.content-box .drill-sequence .container .table-header .subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #010039;
+}
+
+@media screen and (max-width: 780px) {
+    .content-box .drill-sequence .container .table-header .subtitle {
+        font-size: 1.6em;
+    }
+}
+
+
+/* Drills touareg os */
+
+.content-box .drill-sequence .container .drill-touareg-os {
+    padding: 4em 0 2em 0;
+}
+
+.content-box .drill-sequence .container .drill-touareg-os .table-header {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 0.6em;
+    padding: 0 0 0 1em;
+}
+
+.content-box .drill-sequence .container .drill-touareg-os .table-header .logo {
+    display: inline-block;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.content-box .drill-sequence .container .drill-touareg-os .table-header .logo .logo-img {
+    width: 3em;
+    display: inline-block;
+    margin-right: 1em;
+    line-height: 1;
+}
+
+.content-box .drill-sequence .container .drill-touareg-os .table-header .logo span {
+    display: inline-block;
+    font-size: 2em;
+    color: #7c4b9c;
+    font-weight: bold;
+}
+
+.content-box .drill-sequence .container .drill-touareg-os .table-header .logo span sup {
+    font-size: 0.4em;
+}
+
+.content-box .drill-sequence .container .drill-touareg-os .sequence {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 780px) {
+    .content-box .drill-sequence .container .drill-touareg-os .sequence {
+        flex-wrap: wrap;
+    }
+}
+
+.content-box .drill-sequence .container .drill-touareg-os .sequence .example {
+    width: 45%;
+}
+
+@media screen and (max-width: 780px) {
+    .content-box .drill-sequence .container .drill-touareg-os .sequence .example {
+        width: 100%;
+        margin-bottom: 5em;
+    }
+}
+
+.content-box .drill-sequence .container .drill-touareg-os .sequence .hard-bone,
+.content-box .drill-sequence .container .drill-touareg-os .sequence .soft-bone {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.content-box .drill-sequence .container .drill-touareg-os .sequence .example .name {
+    position: relative;
+}
+
+.content-box .drill-sequence .container .drill-touareg-os .sequence .example .name span {
+    transform: rotate(-90deg);
+    display: block;
+    width: 10em;
+    position: absolute;
+    top: -6.1em;
+    left: -1em;
+    font-size: 1.2em;
+    color: #010039;
+}
+
+.content-box .drill-sequence .container .drill-touareg-os .sequence .example .sequence-img {
+    width: 80%;
+}
+
+.content-box .drill-sequence .container .drill-touareg-os .sequence .example .sequence-img img {
+    width: 100%;
+}
+
+
+/* Drills closefit */
+
+.content-box .drill-sequence .container {}
+
+@media screen and (max-width: 1080px) {
+    .content-box .drill-sequence .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .content-box .drill-sequence .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.content-box .drill-sequence .container .drill-closefit {
+    padding: 4em 0 2em 0;
+}
+
+.content-box .drill-sequence .container .drill-closefit .table-header .logo {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 0.6em;
+    padding: 0 0 0 1em;
+}
+
+.content-box .drill-sequence .container .drill-closefit .table-header .logo {
+    display: inline-block;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.content-box .drill-sequence .container .drill-closefit .table-header .logo .logo-img {
+    width: 3em;
+    display: inline-block;
+    margin-right: 1em;
+    line-height: 1;
+}
+
+.content-box .drill-sequence .container .drill-closefit .table-header .logo span {
+    display: inline-block;
+    font-size: 2em;
+    color: #109aa9;
+    font-weight: bold;
+}
+
+.content-box .drill-sequence .container .drill-closefit .table-header .logo span sup {
+    font-size: 0.4em;
+}
+
+.content-box .drill-sequence .container .drill-closefit .sequence {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 780px) {
+    .content-box .drill-sequence .container .drill-closefit .sequence {
+        flex-wrap: wrap;
+    }
+}
+
+.content-box .drill-sequence .container .drill-closefit .sequence .example {
+    width: 45%;
+}
+
+@media screen and (max-width: 780px) {
+    .content-box .drill-sequence .container .drill-closefit .sequence .example {
+        width: 100%;
+        margin-bottom: 5em;
+    }
+}
+
+.content-box .drill-sequence .container .drill-closefit .sequence .hard-bone,
+.content-box .drill-sequence .container .drill-closefit .sequence .soft-bone {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.content-box .drill-sequence .container .drill-closefit .sequence .example .name {
+    position: relative;
+}
+
+.content-box .drill-sequence .container .drill-closefit .sequence .example .name span {
+    transform: rotate(-90deg);
+    display: block;
+    width: 10em;
+    position: absolute;
+    top: -6.1em;
+    left: -1em;
+    font-size: 1.2em;
+    color: #010039;
+}
+
+.content-box .drill-sequence .container .drill-closefit .sequence .example .sequence-img {
+    width: 80%;
+}
+
+.content-box .drill-sequence .container .drill-closefit .sequence .example .sequence-img img {
+    width: 100%;
+}
+
+@media screen and (max-width: 780px) {
+    .content-box .mobile-hidden {
+        display: none !important;
+    }
+}
